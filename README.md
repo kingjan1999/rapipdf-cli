@@ -17,7 +17,7 @@ Apart from just providing an CLI, some additional configuration options (e.g. ad
 ```sh-session
 $ npm install -g @kingjan1999/rapipdf-cli
 $ rapipdf (-v|--version|version)
-@kingjan1999/rapipdf-cli/0.0.1 linux-x64 node-v14.15.1
+@kingjan1999/rapipdf-cli/0.0.3 linux-x64 node-v14.15.1
 $ rapipdf --help [COMMAND]
 USAGE
   $ rapipdf SpecFile # can be either the path to a local file or a remote url (both .yaml and .json are supported)
@@ -25,7 +25,7 @@ USAGE
 OPTIONS
 
   -c, --configFile=configFile # pass the path to the configuration file (optional, see below)
-  -o, --outputFile=outpoutFile # pass the path to the output file (defaults to "api.pdf")
+  -o, --outputFile=outputFile # pass the path to the output file (defaults to "api.pdf")
 ```
 
 
