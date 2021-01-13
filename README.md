@@ -32,3 +32,13 @@ OPTIONS
 # Configuration File
 
 You can pass a configuration file to the CLI (using the `-c` parameter) overriding the defaults. An example is provided in this repository (`rapipdf.config.example-de.json`).
+
+# Example Usage
+
+Calling
+
+```sh-session
+$ rapipdf -o petstore.json.pdf -c config.json  petstore.json
+```
+
+in the `examples/` folder results in the uploaded [petstore.json.pdf]()

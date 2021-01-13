@@ -8,5 +8,4 @@ node_modules
 imgs/
 pdfs/
 swagger-itn.json
-fonts/*
 rapipdf.config.example-itn.json

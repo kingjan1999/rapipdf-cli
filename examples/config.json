@@ -1,0 +1,16 @@
+{
+  "pdfFonts": {
+    "Roboto": {
+      "normal": "../fonts/Roboto-Regular.ttf",
+      "bold": "../fonts/Roboto-Medium.ttf",
+      "italics": "../fonts/Roboto-Italic.ttf",
+      "bolditalics": "../fonts/Roboto-Medium.ttf"
+    },
+    "RobotoMono": {
+      "normal": "../fonts/RobotoMono-Regular.ttf",
+      "bold": "../fonts/RobotoMono-Regular.ttf",
+      "italics": "../fonts/RobotoMono-Regular.ttf",
+      "bolditalics": "../fonts/RobotoMono-Regular.ttf"
+    }
+  }
+}
