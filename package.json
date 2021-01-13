@@ -7,7 +7,7 @@
   },
   "bugs": "https://github.com/kingjan1999/rapipdf-cli/issues",
   "dependencies": {
-    "@kingjan1999/pdfmake": "^0.2.0-alpha.1",
+    "@kingjan1999/pdfmake": "^0.2.0-alpha.2",
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
