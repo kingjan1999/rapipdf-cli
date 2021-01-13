@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require('@babel/register');
+
+require('..').run()
+.catch(err => {
+  console.log(err);
+  throw err;
+})
+.catch(require('@oclif/errors/handle'))

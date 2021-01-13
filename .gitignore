@@ -1,0 +1,12 @@
+*-debug.log
+*-error.log
+/.nyc_output
+/dist
+/package-lock.json
+/tmp
+node_modules
+imgs/
+pdfs/
+swagger-itn.json
+fonts/*
+rapipdf.config.example-itn.json
