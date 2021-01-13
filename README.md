@@ -1,7 +1,7 @@
 Unofficial CLI for RapiPDF
 ===========
 
-[![Version](https://img.shields.io/npm/v/rapipdf-cli.svg)](https://npmjs.org/package/rapipdf-cli)
+[![Version](https://img.shields.io/npm/v/kingjan1999/rapipdf-cli.svg)](https://npmjs.org/package/rapipdf-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/@kingjan1999/rapipdf-cli.svg)](https://npmjs.org/package/rapipdf-cli)
 [![License](https://img.shields.io/npm/l/@kingjan1999/rapipdf-cli.svg)](https://github.com/kingjan1999/rapipdf-cli/blob/master/package.json)
 
