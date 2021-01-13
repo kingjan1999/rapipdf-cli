@@ -19,7 +19,8 @@ export default async function ProcessSpec(specUrl, sortTags) {
       jsonParsedSpec = convertedSpec.openapi;
     }
   } catch (err) {
-    console.info('%c There was an issue while parsing the spec %o ', 'color:orangered', err); // eslint-disable-line no-console
+    // eslint-disable-next-line no-undef, no-console
+    console.info('%c There was an issue while parsing the spec %o ', 'color:orangered', err);
   }
 
   /*
