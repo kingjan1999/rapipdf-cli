@@ -41,4 +41,4 @@ Calling
 $ rapipdf -o petstore.json.pdf -c config.json  petstore.json
 ```
 
-in the `examples/` folder results in the uploaded [petstore.json.pdf]()
+in the `examples/` folder results in the uploaded [petstore.json.pdf](https://github.com/kingjan1999/rapipdf-cli/raw/master/examples/petstore.json.pdf).
