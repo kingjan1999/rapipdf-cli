@@ -12,7 +12,7 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "html-to-pdfmake": "^2.1.2",
-    "js-yaml": "^3.14.1",
+    "js-yaml": "^4.0.0",
     "jsdom": "^16.4.0",
     "marked": "^1.2.7",
     "sprintf-js": "^1.1.2",
@@ -29,10 +29,10 @@
     "@oclif/test": "^1",
     "babel-eslint": "^10.1.0",
     "chai": "^4",
-    "eslint": "^5.13",
+    "eslint": "^7.17",
     "eslint-config-oclif": "^3.1",
-    "mocha": "^5",
-    "nyc": "^14"
+    "mocha": "^8",
+    "nyc": "^15"
   },
   "engines": {
     "node": ">=8.0.0"
