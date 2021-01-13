@@ -87,9 +87,8 @@ class RapipdfCliCommand extends Command {
   }
 }
 
-RapipdfCliCommand.description = `Describe the command here
-...
-Extra documentation goes here
+RapipdfCliCommand.description = `Generate PDfs for OpenAPI files
+
 `;
 
 RapipdfCliCommand.args = [{ name: "file", required: true }];

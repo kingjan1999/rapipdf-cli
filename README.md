@@ -20,7 +20,7 @@ $ rapipdf (-v|--version|version)
 @kingjan1999/rapipdf-cli/0.0.1 linux-x64 node-v14.15.1
 $ rapipdf --help [COMMAND]
 USAGE
-  $ rapipdf SpecFile # can be either the path to a local file or a remote url
+  $ rapipdf SpecFile # can be either the path to a local file or a remote url (both .yaml and .json are supported)
 
 OPTIONS
 

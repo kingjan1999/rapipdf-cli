@@ -1,6 +1,6 @@
 {
   "name": "@kingjan1999/rapipdf-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jan Beckmann @kingjan1999",
   "bin": {
     "rapipdf": "./bin/run"
@@ -20,6 +20,7 @@
     "swagger2openapi": "^7.0.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
@@ -38,14 +39,15 @@
   },
   "files": [
     "/bin",
-    "/src"
+    "/src",
+    "/dist"
   ],
   "homepage": "https://github.com/kingjan1999/rapipdf-cli",
   "keywords": [
     "oclif"
   ],
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "oclif": {
     "bin": "rapipdf"
   },
@@ -54,6 +56,7 @@
     "posttest": "eslint .",
     "prepack": "oclif-dev readme",
     "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md",
+    "build": "babel src -d dist"
   }
 }
