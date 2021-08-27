@@ -14,7 +14,7 @@ class RapipdfCliCommand extends Command {
     let parsedSpec = {};
 
     if (/(yaml|yaml)$/.test(args.file)) {
-      parsedSpec = jsyaml.safeLoad(fileContent);
+      parsedSpec = jsyaml.load(fileContent);
     } else {
       parsedSpec = JSON.parse(fileContent);
     }
