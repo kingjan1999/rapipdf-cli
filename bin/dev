@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const oclif = require('@oclif/core')
+
+process.env.NODE_ENV = 'development';
+
+require('@babel/register');
+
+oclif.run().then(oclif.flush).catch(oclif.Errors.handle)

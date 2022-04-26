@@ -8,9 +8,9 @@
   "bugs": "https://github.com/kingjan1999/rapipdf-cli/issues",
   "dependencies": {
     "@kingjan1999/pdfmake": "^0.2.0-alpha.2",
-    "@oclif/command": "^1",
-    "@oclif/config": "^1",
+    "@oclif/core": "^1.7.0",
     "@oclif/plugin-help": "^5",
+    "@oclif/plugin-version": "^1.0.4",
     "html-to-pdfmake": "^2.3.11",
     "js-yaml": "^4.1.0",
     "jsdom": "^19.0.0",
@@ -25,7 +25,6 @@
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
     "@babel/register": "^7.17.7",
-    "@oclif/dev-cli": "^1",
     "@oclif/test": "^2",
     "babel-eslint": "^10.1.0",
     "chai": "^4",
@@ -40,7 +39,8 @@
   "files": [
     "/bin",
     "/src",
-    "/dist"
+    "/dist",
+    "/fonts"
   ],
   "homepage": "https://github.com/kingjan1999/rapipdf-cli",
   "keywords": [
@@ -49,7 +49,19 @@
   "license": "MIT",
   "main": "dist/index.js",
   "oclif": {
-    "bin": "rapipdf"
+    "bin": "rapipdf",
+    "additionalHelpFlags": [
+      "-h"
+    ],
+    "additionalVersionFlags": [
+      "-v"
+    ],
+    "plugins": [
+      "@oclif/plugin-version",
+      "@oclif/plugin-help"
+    ],
+    "commands": "./dist/commands",
+    "default": "generate"
   },
   "repository": "kingjan1999/rapipdf-cli",
   "scripts": {
